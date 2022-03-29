@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
-    
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .body {
@@ -36,6 +38,7 @@ body {
 a, .hero-text-sec {
     color: #e5e7eb;
     font-size: 18px;
+    margin-bottom: 16px;
 }
 
 a {
@@ -101,6 +104,8 @@ button {
 .header-bottom {
     display: flex;
     margin: 64px 0; 
+    align-items: center;
+    justify-content: center;
 }
 
 .bodyoneheading {
@@ -121,9 +126,9 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 16px;
-    width: 150px;
+    width: 200px;
 }
 
 .cardimage {
@@ -155,3 +160,19 @@ button {
 .newsltitle {
     font-size: 18px;
 }
+
+.placeholder {
+    width: 600px;
+    height: auto;
+    margin-left: 32px;
+    border-radius: 4px;
+}
+
+.headerb-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
